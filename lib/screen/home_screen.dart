@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_personal_task/widgets/bottom_navigation_options.dart';
 
 class HomeScreen extends StatelessWidget{
-  
   late final String title;
 
   HomeScreen(
@@ -21,7 +20,7 @@ class HomeScreen extends StatelessWidget{
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("Welcome to Home Screene"),
+            const Text("Welcome to Home Screen"),
             const SizedBox(height: 10,),
             Image.network('https://picsum.photos/250?image=9'),
           ],

@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_personal_task/screen/home_screen.dart';
 import 'package:flutter_personal_task/main_theme.dart';
 
-main() => runApp( const MyApp() );
+void main() {
+  runApp( const MyApp() );
+} 
 
 class MyApp extends StatelessWidget{
   const MyApp({super.key});
@@ -11,9 +13,9 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: titleApp,
-      home: HomeScreen(titleApp),
+      //title: titleApp,
       theme: themeDataApp,
+      home: HomeScreen(titleApp),
       debugShowCheckedModeBanner: false,
     );
   }
